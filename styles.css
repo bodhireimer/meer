@@ -164,6 +164,17 @@ header a:hover {
     text-overflow: ellipsis;
 }
 
+.project-role {
+    font-size: 0.6rem;
+    color: #c3c3c3;
+    text-transform: uppercase;
+    letter-spacing: 0.075em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 2px;
+}
+
 .project-header h3 {
     font-size: 0.95rem;
     font-weight: 600;
@@ -289,4 +300,9 @@ header a:hover {
     font-size: 0.95rem;
     line-height: 1.5;
     color: #fff;
+}
+
+
+.break {
+	height: 2rem;
 }
